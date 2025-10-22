@@ -22,19 +22,45 @@ It supports:
 - Works on Linux (tested on Ubuntu 24.04)
 
 ---
+Perfect 👌 — here’s the **final, enhanced Prerequisites section** in Markdown, including your tested environment details:
 
-## 📋 Prerequisites
+---
 
-1. **Python 3.8+**
-2. **msmtp** and **msmtp-mta** installed
-3. A **Gmail account** configured for application access
+### 🧩 Prerequisites
 
-### Install msmtp
+This project was **designed and tested on Ubuntu 24.04 LTS**.
+It should also work on most modern Linux distributions with minor adjustments.
 
-```bash
-sudo apt update
-sudo apt install msmtp msmtp-mta
-```
+You will need:
+
+* **Python ≥ 3.8**
+* **msmtp** installed
+
+  ```bash
+  sudo apt install msmtp msmtp-mta
+  ```
+* **CA certificates** installed (for secure TLS connections)
+
+  ```bash
+  sudo apt install ca-certificates
+  ```
+* A **Gmail account configured with an App Password** for use by external mail clients
+  *(see “Configure Gmail for msmtp” section below)*
+* A properly configured **`~/.msmtprc`** file (used by `msmtp` to send emails)
+
+---
+
+### 🧪 Tested Environment
+
+This library has been developed and validated with the following environment:
+
+| Component            | Version / Details                                          |
+| -------------------- | ---------------------------------------------------------- |
+| **Operating System** | Ubuntu 24.04.3 LTS                                         |
+| **Kernel**           | Linux 6.8.x                                                |
+| **Python**           | 3.12.3                                                     |
+| **msmtp**            | 1.8.24                                                     |
+| **CA Certificates**  | /etc/ssl/certs/ca-certificates.crt (default Ubuntu bundle) |
 
 ---
 
