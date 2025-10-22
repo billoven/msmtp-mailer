@@ -115,7 +115,7 @@ msmtp-mailer/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/msmtp-mailer.git
+git clone https://github.com/billoven/msmtp-mailer.git
 cd msmtp-mailer
 ```
 
