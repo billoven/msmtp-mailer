@@ -15,11 +15,11 @@ It supports:
 
 ## 📦 Features
 
-✅ Simple and minimal setup
-✅ Gmail-compatible (using App Passwords)
-✅ No external Python dependencies
-✅ Fully tested with unit tests
-✅ Works on Linux (tested on Ubuntu 24.04)
+- Simple and minimal setup
+- Gmail-compatible (using App Passwords)
+- No external Python dependencies
+- Fully tested with unit tests
+- Works on Linux (tested on Ubuntu 24.04)
 
 ---
 
